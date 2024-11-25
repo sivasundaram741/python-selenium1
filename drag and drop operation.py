@@ -36,5 +36,5 @@ def perform_drag_and_drop():
         driver.quit()
 
 # Call the function to execute the task
-if _name_ == "_main_":
+if __name__ == "__main__":
     perform_drag_and_drop()
